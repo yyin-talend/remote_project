@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_hD9rsJfjEemeRLgf_hnHsw" name="db_remote" id="_d0EoQJfjEemeRLgf_hnHsw" label="db_remote" dataPackage="_iEwaUJfjEemeRLgf_hnHsw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://:3306/tbi?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="" DatasourceName="" FileFieldName="" SID="tbi" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_hD9rsZfjEemeRLgf_hnHsw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_h_p34JfjEemeRLgf_hnHsw" tag="package filter" value=""/>
@@ -14,5 +14,57 @@
     <taggedValue xmi:id="_iCo6cpfjEemeRLgf_hnHsw" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_hD9rspfjEemeRLgf_hnHsw" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_iEwaUJfjEemeRLgf_hnHsw" name="tbi" dataManager="_hD9rsJfjEemeRLgf_hnHsw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iEwaUJfjEemeRLgf_hnHsw" name="tbi" dataManager="_hD9rsJfjEemeRLgf_hnHsw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9ho8ZfjEemeRLgf_hnHsw" name="big1" id="_o7iE4JfjEemeRLgf_hnHsw" label="big1" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQAJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQAZfjEemeRLgf_hnHsw" name="company" id="_o7uSIJfjEemeRLgf_hnHsw" label="company" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQApfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQA5fjEemeRLgf_hnHsw" name="customer" id="_o7u5MJfjEemeRLgf_hnHsw" label="customer" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQBJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQBZfjEemeRLgf_hnHsw" name="customer_unique" id="_o77tgJfjEemeRLgf_hnHsw" label="customer_unique" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQBpfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQB5fjEemeRLgf_hnHsw" name="employee" id="_o8E3cJfjEemeRLgf_hnHsw" label="employee" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQCJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQCZfjEemeRLgf_hnHsw" name="employee_unique" id="_o8MzQJfjEemeRLgf_hnHsw" label="employee_unique" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQCpfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQC5fjEemeRLgf_hnHsw" name="product" id="_o8SS0JfjEemeRLgf_hnHsw" label="product" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQDJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQDZfjEemeRLgf_hnHsw" name="product_unique" id="_o8cq4JfjEemeRLgf_hnHsw" label="product_unique" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQDpfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQD5fjEemeRLgf_hnHsw" name="product_unique3" id="_o8lNwJfjEemeRLgf_hnHsw" label="product_unique3" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQEJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQEZfjEemeRLgf_hnHsw" name="sales_fact" id="_o8uXsJfjEemeRLgf_hnHsw" label="sales_fact" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQEpfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQE5fjEemeRLgf_hnHsw" name="speed" id="_o8z3QJfjEemeRLgf_hnHsw" label="speed" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQFJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQFZfjEemeRLgf_hnHsw" name="stu" id="_o87zEJfjEemeRLgf_hnHsw" label="stu" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQFpfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQF5fjEemeRLgf_hnHsw" name="table_new" id="_o9IAUJfjEemeRLgf_hnHsw" label="table_new" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQGJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQGZfjEemeRLgf_hnHsw" name="test1" id="_o9TmgJfjEemeRLgf_hnHsw" label="test1" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQGpfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQG5fjEemeRLgf_hnHsw" name="text_length_demo" id="_o9XQ4JfjEemeRLgf_hnHsw" label="text_length_demo" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQHJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQHZfjEemeRLgf_hnHsw" name="time_by_day" id="_o9ga0JfjEemeRLgf_hnHsw" label="time_by_day" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQHpfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_o9iQH5fjEemeRLgf_hnHsw" name="warehouse" id="_o9ho8JfjEemeRLgf_hnHsw" label="warehouse" tableType="TABLE">
+      <taggedValue xmi:id="_o9iQIJfjEemeRLgf_hnHsw" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
