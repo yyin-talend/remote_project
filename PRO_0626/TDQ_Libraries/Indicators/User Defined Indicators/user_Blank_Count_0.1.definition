@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.indicators.definition.userdefine:UDIndicatorDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.indicators.definition.userdefine="http://dataquality.indicators.definition.userdefine" xmi:id="_TB-XoJfjEemeRLgf_hnHsw" name="user_Blank Count" label="user_Blank Count">
+  <taggedValue xmi:id="_TB-XoZfjEemeRLgf_hnHsw" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
+  <taggedValue xmi:id="_TB-XopfjEemeRLgf_hnHsw" tag="Purpose" value="evaluates the number of blank records"/>
+  <taggedValue xmi:id="_TB-Xo5fjEemeRLgf_hnHsw" tag="Author" value="yy@a.a"/>
+  <taggedValue xmi:id="_TB-XpJfjEemeRLgf_hnHsw" tag="Validation_Status" value="true"/>
+  <categories href="../../.Talend.definition#_b5F7QHqTEd67hM2eKD3QgQ"/>
+  <sqlGenericExpression xmi:id="_TB-XpZfjEemeRLgf_hnHsw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+  <sqlGenericExpression xmi:id="_TB-XppfjEemeRLgf_hnHsw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+  <sqlGenericExpression xmi:id="_TB-Xp5fjEemeRLgf_hnHsw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+  <sqlGenericExpression xmi:id="_TB-XqJfjEemeRLgf_hnHsw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+  <sqlGenericExpression xmi:id="_TB-XqZfjEemeRLgf_hnHsw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+  <viewRowsExpression xmi:id="_TJUVwJfjEemeRLgf_hnHsw" body="SELECT * FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL" modificationDate="2019-06-26 15:23:30"/>
+  <viewRowsExpression xmi:id="_TJUVwZfjEemeRLgf_hnHsw" body="SELECT * FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle" modificationDate="2019-06-26 15:23:30"/>
+  <viewRowsExpression xmi:id="_TJUVwpfjEemeRLgf_hnHsw" body="SELECT * FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2" modificationDate="2019-06-26 15:23:30"/>
+  <viewRowsExpression xmi:id="_TJUVw5fjEemeRLgf_hnHsw" body="SELECT * FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Microsoft SQL Server" modificationDate="2019-06-26 15:23:30"/>
+  <viewRowsExpression xmi:id="_TJUVxJfjEemeRLgf_hnHsw" body="SELECT * FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ" modificationDate="2019-06-26 15:23:30"/>
+</dataquality.indicators.definition.userdefine:UDIndicatorDefinition>
