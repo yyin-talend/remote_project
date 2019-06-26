@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_zxBAsJfjEemeRLgf_hnHsw" name="simple_remote" creationDate="2019-06-26T15:27:08.406+0800" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_zxBAsJfjEemeRLgf_hnHsw" name="simple_remote" supplierDependency="_5RTZgJfjEemeRLgf_hnHsw" creationDate="2019-06-26T15:27:08.406+0800" defaultContext="Default">
     <clientDependency href="../../metadata/connections/db_remote_0.1.item#_08jmwJfjEemeRLgf_hnHsw"/>
     <taggedValue xmi:id="_zxBAsZfjEemeRLgf_hnHsw" tag="Status" value="development"/>
     <taggedValue xmi:id="_zxBAspfjEemeRLgf_hnHsw" tag="Author" value="yy@a.a"/>
@@ -178,4 +178,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_5RTZgJfjEemeRLgf_hnHsw" kind="Usage" supplier="_zxBAsJfjEemeRLgf_hnHsw">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/simple_remote_0.1.rep#_5RSyYJfjEemeRLgf_hnHsw"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

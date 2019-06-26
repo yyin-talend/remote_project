@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_5RSyYJfjEemeRLgf_hnHsw" name="simple_remote" creationDate="2019-06-26T15:27:45.953+0800">
+  <clientDependency href="../Analyses/simple_remote_0.1.ana#_5RTZgJfjEemeRLgf_hnHsw"/>
+  <taggedValue xmi:id="_5RTZcJfjEemeRLgf_hnHsw" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_5RTZcZfjEemeRLgf_hnHsw" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_5RTZcpfjEemeRLgf_hnHsw" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_5RTZc5fjEemeRLgf_hnHsw" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_5RTZdJfjEemeRLgf_hnHsw" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_5RTZdZfjEemeRLgf_hnHsw" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_5RTZdpfjEemeRLgf_hnHsw" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_5RTZd5fjEemeRLgf_hnHsw" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_5RTZeJfjEemeRLgf_hnHsw" tag="REP_DBINFO_PASSWORD" value="yJKHKGWEAQw="/>
+  <taggedValue xmi:id="_5RTZeZfjEemeRLgf_hnHsw" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_5RTZepfjEemeRLgf_hnHsw" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/home/runtime/talend/TDQ_reporting_db/talend_dq"/>
+  <taggedValue xmi:id="_5RTZe5fjEemeRLgf_hnHsw" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_5RTZfJfjEemeRLgf_hnHsw" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_5RTZfZfjEemeRLgf_hnHsw" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_5RTZfpfjEemeRLgf_hnHsw" tag="Author" value="yy@a.a"/>
+  <analysisMap xmi:id="_5RTZf5fjEemeRLgf_hnHsw" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/simple_remote_0.1.ana#_zxBAsJfjEemeRLgf_hnHsw"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
